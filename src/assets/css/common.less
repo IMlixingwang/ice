@@ -1,0 +1,63 @@
+// 公共的样式 
+
+/*公共部分*/
+/*头部导航开始*/
+@font-face {
+    font-family: tengxiang;
+    src: url('../fonts/tengxiang.TTF');
+}
+
+@font-face {
+    font-family: jiaoyue;
+    src: url('../fonts/jiaoyue.TTF');
+}
+
+// 腾翔字体
+.tengxiang {
+    font-family: tengxiang;
+}
+// 皎月字体
+.jiaoyue {
+    font-family: jiaoyue;
+}
+
+// 课程名称
+.teach-center-title {
+    font-size: 2rem;
+    letter-spacing: 0.8rem;
+    margin-left: 0.8rem;
+    font-family: 'tengxiang';
+    font-weight: bold;
+}
+
+// 适合年龄
+.teach-center-age {
+    order: 1;
+    font-family: tengxiang;
+    font-size: 0.75rem;
+    font-family: 'tengxiang';
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+// 课程描述
+.teach-center-description {
+    text-indent: 2.5rem;
+    letter-spacing: 0.25rem;
+    line-height: 1.9rem;
+    font-family: 'jiaoyue';
+    font-size: 1.25rem;
+    word-break: break-word;
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:750px) {}
+
+@media (min-width:750px) and (max-width:980px) {}
+
+@media (min-width:980px) and (max-width: 1280px) {}
+
+@media (min-width:1280px) {}
